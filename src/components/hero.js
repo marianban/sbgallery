@@ -12,7 +12,7 @@ const Hero = () => (
                 <h3>Salon and Barber Software Gallery</h3>
                 <p>
                   Explore our list of quality products and find the best for
-                  your business
+                  booth renters
                 </p>
                 <ul>
                   <li>

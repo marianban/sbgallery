@@ -33,7 +33,7 @@ export const query = graphql`
 const IndexPage = ({ data: { images } }) =>
  (
     <Layout>
-      <SEO title="Salon And Barber Software Gallery" lang="en" description="Showcase of the best Salon and Barber software available on the market. Choose from more than hundred online service providers." />
+      <SEO title="Salon And Barber Software Gallery" lang="en" description="Showcase of the best Salon and Barber software available for booth renters. Choose from more than hundred online service providers." />
       <Helmet>
         <link
           rel="stylesheet"

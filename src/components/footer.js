@@ -7,12 +7,14 @@ export const Footer = () => (
         <div className="row">
           <div className="col-md-5 col-sm-5 col-xs-12">
             <div className="footer-widget">
-              <img src="img/logo2.png" alt="" />
+              <h2 className="footer-title">Why to choose us?</h2>
               <p>
                 Salon and Barber software gallery is a platform where you can
                 find the best software for you and your salon or barbershop. All
-                application were handpicked and carefully considered before
-                listed on this page.
+                applications were handpicked and carefully considered before
+                listed on this page. Whethever you are a hair salon, nail salon or barber shop owner 
+                you will definetly find the best app for you and your customers here.
+                We took a special care in order satisfy small businesses and booth rental stylists.
               </p>
             </div>
           </div>
