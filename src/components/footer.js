@@ -12,9 +12,10 @@ export const Footer = () => (
                 Salon and Barber software gallery is a platform where you can
                 find the best software for you and your salon or barbershop. All
                 applications were handpicked and carefully considered before
-                listed on this page. Whethever you are a hair salon, nail salon or barber shop owner 
-                you will definetly find the best app for you and your customers here.
-                We took a special care in order satisfy small businesses and booth rental stylists.
+                listed on this page. Whethever you are a hair salon, nail salon
+                or barber shop owner you will definetly find the best app for
+                you and your customers here. We took a special care in order
+                satisfy small businesses and booth rental stylists.
               </p>
             </div>
           </div>
@@ -38,7 +39,7 @@ export const Footer = () => (
       <div className="container">
         <div className="row">
           <div className="col-xs-12">
-            Copyright &copy; 2019 <a href="#">S&amp;B Gallery</a>. All rights
+            Copyright &copy; 2019 <a href="/">S&amp;B Gallery</a>. All rights
             reserved.
           </div>
         </div>

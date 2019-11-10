@@ -1940,9 +1940,8 @@ a#scrollUp:hover {
   display: inline-block;
   margin: 0px 2px 10px 2px;
 }
-.tag-wrap ul li a {
+.tag-wrap ul li {
   border: 1px solid #e1e1e1;
-  display: block;
   padding: 7px 9px;
 }
 .tag-wrap ul li a:hover {
@@ -2351,7 +2350,8 @@ a#scrollUp:hover {
 }
 .product-details-active {
   float: left;
-  width: 79%;
+  /* width: 79%; */
+  width: 100%;
 }
 .thamb-active {
   width: 20%;
@@ -2691,7 +2691,7 @@ a#scrollUp:hover {
   background: #fff;
   padding: 30px 20px 20px 20px;
 }
-.tag-wrap2.tag-wrap ul li a {
+.tag-wrap2.tag-wrap ul li {
   padding: 5px;
 }
 

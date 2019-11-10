@@ -7,7 +7,6 @@ import { Newsletter } from "../components/newsletter"
 import { Products } from "../components/products"
 import { SearchArea } from "../components/search-area"
 import SEO from "../components/seo"
-import "./style.css"
 
 export const query = graphql`
   {
