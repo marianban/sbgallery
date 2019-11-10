@@ -463,7 +463,7 @@ products:
       pos: y
       onlinePayments: y
       customerRetention: y
-      img: revelsystems.com_ .png
+      img: revelsystems.com_.png
   - product:
       name: Beauty Salon
       url: https://www.vcita.com/ads/beauty-salon
@@ -509,5 +509,138 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.chidesk.com_.png
-
-      // continue: https://www.capterra.com/salon-software/
+  - product:
+      name: Neko
+      url: https://www.getneko.com
+      free: n
+      prices: $20 - $200
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: y
+      onlinePayments: y
+      customerRetention: y
+      img: www.getneko.com_.png
+  - product:
+      name: You're on time
+      url: https://youreontime.com/
+      free: y
+      prices: $50 - $100
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: n
+      onlinePayments: y
+      customerRetention: y
+      img: youreontime.com_.png
+  - product:
+      name: Salon Life
+      url: https://salon.life/
+      free: y
+      prices: 7€ - 17€
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: n
+      reminders: y
+      pos: n
+      onlinePayments: n
+      customerRetention: y
+      img: salon.life_.png
+  - product:
+      name: Square Appointments
+      url: https://squareup.com/us/en/appointments
+      free: y
+      prices: $50 - $90
+      mobileApp: y
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: y
+      onlinePayments: y
+      customerRetention: y
+      img: squareup.com_us_en_appointments.png
+  - product:
+      name: Salon Builder
+      url: https://www.salonbuilder.com/
+      free: n
+      prices: $25 - $35
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: n
+      onlinePayments: n
+      customerRetention: n
+      img: www.salonbuilder.com_.png
+  - product:
+      name: Style Seat
+      url: https://www.styleseat.com/join/?source=header_for_business
+      free: n
+      prices: $35
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: n
+      onlinePayments: y
+      customerRetention: y
+      img: www.styleseat.com_m_.png
+  - product:
+      name: STX
+      url: https://www.stxsoftware.com/
+      free: n
+      prices: on request
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: y
+      onlinePayments: y
+      customerRetention: y
+      img: www.stxsoftware.com_.png
+  - product:
+      name: Booxi
+      url: https://www.booxi.com/
+      free: n
+      prices: 20€ - 80€
+      mobileApp: y
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: y
+      onlinePayments: y
+      customerRetention: y
+      img: www.booxi.com_.png
+  - product:
+      name: MasterPeace live
+      url: https://www.masterpeacelive.com/
+      free: n
+      prices: 49€
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: y
+      onlinePayments: y
+      customerRetention: y
+      img: www.masterpeacelive.com_.png
