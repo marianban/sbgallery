@@ -525,6 +525,7 @@ a#scrollUp:hover {
   padding: 12px 0;
   font-size: 35px;
   font-weight: bold;
+  white-space: nowrap;
 }
 .logo a,
 .logo a:hover {
