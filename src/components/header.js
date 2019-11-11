@@ -1,5 +1,4 @@
 import React from "react"
-import Logo from '../images/S&B_Gallery_logo.png'
 
 const Header = () => (
   <header>
@@ -9,7 +8,7 @@ const Header = () => (
           <div className="col-md-3 col-xs-8">
             <div className="logo">
               <a href="/">
-                <img src={Logo} alt="Logo" />
+                S<span>&amp;</span>B GALLERY
               </a>
             </div>
           </div>

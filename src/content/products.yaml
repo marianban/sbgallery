@@ -13,7 +13,8 @@ products:
       pos: y
       onlinePayments: y
       customerRetention: y
-      img: vivo.png
+      img: merchant.vivo.co_en_.png
+      desc: Vivo Appointments booking portal allows you to find best beauty professionals in your location, to see availability and to book the appointment.
   - product:
       name: Planfy
       url: https://www.planfy.com/
@@ -28,7 +29,8 @@ products:
       pos: y
       onlinePayments: y
       customerRetention: y
-      img: planfy.png
+      img: www.planfy.com_.png
+      desc: A cloud-based online booking, client self service and schedule management system for businesses. Helping you operate efficiently, minimise no-shows and retain clients.
   - product:
       name: Shedul
       url: https://www.shedul.com
@@ -44,6 +46,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.shedul.com_.png
+      desc: Best Salon Software, salon pos, spa software, sheduling software, booking system for hair salons and beauty salons with advanced appointment scheduling, Online Booking, appointment reminders, client CRM, POS, products, business reporting, payroll and much
   - product:
       name: Salonist
       url: https://salonist.io
@@ -59,6 +62,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: salonist.io_.png
+      desc: "Salonist - A pioneer Salon Management Software, helps Salon owners to maintain relation with clients using its features : POS, Inventory, Appointment etc."
   - product:
       name: Plandok
       url: https://www.plandok.com
@@ -74,6 +78,7 @@ products:
       onlinePayments: n
       customerRetention: n
       img: www.plandok.com_.png
+      desc: Advanced appointment scheduling, manage appointments with Plandok. Free appointment schedulling software, all the powerful tools you need for your salon management! Salon Software, spa software, booking system for hair salons and beauty salons.
   - product:
       name: Insight
       url: https://www.salon-software.com
@@ -89,6 +94,7 @@ products:
       onlinePayments: n
       customerRetention: y
       img: www.salon-software.com_.png
+      desc: Insight Salon & Spa Software is a user-friendly appointment scheduling program with 25 years of experience in the beauty industry. Download a free trial today!
   - product:
       name: Konnect
       url: https://www.konnect.software
@@ -104,6 +110,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.konnect.software_.png
+      desc: Always wished you had a system in place that could manage every aspect of your spa or salon business in one secure place?
   - product:
       name: Belliata
       url: https://belliatasalonsoftware.com
@@ -119,6 +126,7 @@ products:
       onlinePayments: n
       customerRetention: y
       img: belliatasalonsoftware.com_.png
+      desc: Free Salon Software for all growing hair salons, beauty salons & spa and enable customers to make bookings via your own booking page. Get Belliata today!
   - product:
       name: Phorest
       url: https://www.phorest.com
@@ -134,6 +142,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.phorest.com_.png
+      desc: Join 6,000+ hair & beaty salons, spas & barbers using Phorest Salon Software to increase bookings & revenue. We'll handle your setup & migration. Try today!
   - product:
       name: Rosy
       url: https://www.rosysalonsoftware.com
@@ -149,6 +158,7 @@ products:
       onlinePayments: y
       customerRetention: n
       img: www.rosysalonsoftware.com_.png
+      desc: Created by hairdressers for hairdressers! Access the ultimate salon and spa scheduling and management software anytime, from anywhere, and on any device.
   - product:
       name: Zenoti
       url: https://www.zenoti.com/
@@ -164,6 +174,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.zenoti.com_.png
+      desc: Zenoti is the most advanced cloud-based, business software for spas, salons, and medi-spas. Trusted by 5,000+ spas and salons across the world.
   - product:
       name: BetterBookings
       url: https://www.betterbookingsapp.com/salon-software/
@@ -179,6 +190,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.betterbookingsapp.com_salon-software_.png
+      desc: Salon software perfect for hair & beauty professionals. Combine appointment scheduling, finances and client management. Try free for 30 days!
   - product:
       name: b2bscheduleit
       url: https://b2bscheduleit.com
@@ -194,6 +206,7 @@ products:
       onlinePayments:
       customerRetention:
       img: b2bscheduleit.com_.png
+      desc: BeSoftware | Best WordPress theme for softwares
   - product:
       name: Bizlink
       url: http://www.bizlinkms.com
@@ -209,6 +222,7 @@ products:
       onlinePayments: y
       customerRetention:
       img: www.bizlinkms.com_.png
+      desc: Bizlink Software is designed to meet the needs of both Salon Owners and Booth Renter! Whether you are balancing the needs of running a busy salon or scheduling and managing the needs multiple clients as a self-employed stylist, we have a solution that will assist you with managing multiple tasks. Our web-based software can be accessed from anywhere in the world, with an internet connection; including the connection on your smart phone. To meet whatever your business needs require, our software can be accessed from a single point of use or from multiple computers. Our software is currently being used by Booth Renters and Salon/Spa's all over the country. With its user friendly interface, just a few clicks will provide you with the ability to schedule appointments, track retail, view reports, accept credit card payments and so much more. As client focus is a priority for us, we have incorporated the input of our clients into the process of creating software to meet your needs.
   - product:
       name: Acuityscheduling
       url: https://acuityscheduling.com
@@ -224,6 +238,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: acuityscheduling.com_.png
+      desc: Online appointment scheduling software. Clients schedule appointments, pay, and complete intake forms online 24/7. Free signup!
   - product:
       name: simplybook.me
       url: https://simplybook.me/
@@ -239,6 +254,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: simplybook.me_.png
+      desc: Online booking system. Booking website or widget for your own website. Let clients schedule appointments, get reminders and pay online 24/7. Free version!
   - product:
       name: Versum
       url: https://www.versum.com/m/
@@ -254,6 +270,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.versum.com_m_.png
+      desc: Web-based salon software that fits all your needs. Save time while managing your salon easily with Versum - the best cloud-based salon software!
   - product:
       name: Booker
       url: https://www.booker.com
@@ -269,6 +286,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.booker.com_.png
+      desc: Booker simplifies spa and salon management with Online Booking Software. Discover why Spas & Salons trust Booker to manage scheduling, integrated point-of-sale, and more!
   - product:
       name: Envision
       url: https://www.envisionsalon.com
@@ -284,6 +302,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.envisionsalon.com_.png
+      desc: Envision Spa and Salon software allows you to manage your salon appointments, point of sale, salon marketing campaigns and much more in one easy to use package. Request a free demo and make the move to Envision Spa and Salon Software today!
   - product:
       name: Vagaro
       url: https://sales.vagaro.com
@@ -299,6 +318,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: sales.vagaro.com_.png
+      desc: Salon Software, Spa Software and Fitness Software is affordable, Intuitive, secure and reliable with Vagaro.
   - product:
       name: Salon Iris
       url: https://www.saloniris.com/
@@ -314,6 +334,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.saloniris.com_.png
+      desc: Salon Iris software takes care of all the hard work for you. Start growing your business today. Trusted by over 50,000 salon owners. Try it free right now!
   - product:
       name: SalonBiz
       url: https://salonbizsoftware.com/
@@ -329,6 +350,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: salonbizsoftware.com_.png
+      desc: Salon software and spa software are imperative to running your salon efficiently. SalonBiz Software has appt booking, inventory, accounting, reports & more.
   - product:
       name: Salon
       url: https://www.premiersoftware.uk/products/salon/
@@ -344,6 +366,7 @@ products:
       onlinePayments:
       customerRetention:
       img: www.premiersoftware.uk_products_salon_.png
+      desc: Salon by Premier Software is a 2-in-1 salon software package designed specifically to meet the demands of the hair and beauty industry.
   - product:
       name: SmartCoiffeur
       url: https://www.smartcoiffeur.com/
@@ -358,7 +381,8 @@ products:
       pos:
       onlinePayments: y
       customerRetention:
-      img: www.smartcoiffeur.com.png
+      img: www.smartcoiffeur.com_.png
+      desc: The Free Appointment and Booking Software exklusively for your Hair Salon - available with your own Salon branded mobile app! Simple yet powerful!
   - product:
       name: SimpleSpa
       url: http://www.simplespa.com/salon/
@@ -373,7 +397,8 @@ products:
       pos: y
       onlinePayments: y
       customerRetention: y
-      img: www.simplespa.com.png
+      img: www.simplespa.com_salon_.png
+      desc: SimpleSpa salon spa software that manages your appointment schedule and client bookings, while helping grow your business. Try for free our easy-to-use software.
   - product:
       name: Miosalon
       url: https://www.miosalon.com/
@@ -388,7 +413,8 @@ products:
       pos: y
       onlinePayments: y
       customerRetention: y
-      img: www.miosalon.com.png
+      img: www.miosalon.com_.png
+      desc: Online Spa and Salon Software makes your daily business operation easy & Maximize profits. Appointment Scheduling, Billing, Online booking, Client Management.
   - product:
       name: Booker
       url: https://www.mindbodyonline.com/salon-software
@@ -404,6 +430,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.mindbodyonline.com_salon-software.png
+      desc: Our salon software helps salon owners with business management, scheduling, point of sale, reporting, and marketing in an all-in-one software technology platform. Get a demo and learn how salon software can grow your revenue faster and streamline your salon business.
   - product:
       name: Supersalon
       url: https://supersalon.com/
@@ -419,6 +446,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: supersalon.com_.png
+      desc: no.1 Salon Management Software by SuperSalon. Trusted by leading salon brands. Features include POS, staff management, product promotion & more
   - product:
       name: Timely
       url: https://gettimely.com/
@@ -433,9 +461,10 @@ products:
       pos: y
       onlinePayments: y
       customerRetention: y
-      img: gettimely.com_.png
+      img: www.gettimely.com_.png
+      desc: The world's smartest appointment booking software, designed to help your deliver exceptional client experiences. Trusted by 36,000 people. Try Timely free.
   - product:
-      name: Timely
+      name: 10to8
       url: https://10to8.com/salon-software/
       free: yes
       prices: $9.6 - $40
@@ -449,6 +478,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: 10to8.com_salon-software_.png
+      desc: Free online booking system for Salons & Spas. Take appointments & payments online. Reduce no-shows with automated reminders. Get Started Today!
   - product:
       name: Revel Systems
       url: https://revelsystems.com/
@@ -464,6 +494,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: revelsystems.com_.png
+      desc: The Revel iPad POS System is the feature-rich point of sale platform designed to transform the way people do business. See the Revel POS system in action.
   - product:
       name: Beauty Salon
       url: https://www.vcita.com/ads/beauty-salon
@@ -479,6 +510,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.vcita.com_ads_beauty-salon.png
+      desc: The perfect small businesses CRM, designed to help you both manage AND grow your business by building long-lasting customer relationships.
   - product:
       name: Simple Salon
       url: https://www.simplesalon.com/
@@ -494,6 +526,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.simplesalon.com_.png
+      desc: The no.1 Salon Software and App designed for Hair, Spas and Beauty Salons. Simplify your salon booking, appointment and scheduling with Simple Salon.
   - product:
       name: ChiDesk
       url: https://www.chidesk.com/
@@ -509,6 +542,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.chidesk.com_.png
+      desc: Try our easy to use scheduling software to manage appointments, classes, point of sale, online bookings and more.
   - product:
       name: Neko
       url: https://www.getneko.com
@@ -524,6 +558,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.getneko.com_.png
+      desc: Our cloud-based salon software has all the tools you need to do better business. Neko is secure, reliable, and our friendly team are always here to help.
   - product:
       name: You're on time
       url: https://youreontime.com/
@@ -539,6 +574,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: youreontime.com_.png
+      desc: The world's simplest appointment booking software, that contains everything you need. Used by thousands and with a free version available.
   - product:
       name: Salon Life
       url: https://salon.life/
@@ -554,6 +590,7 @@ products:
       onlinePayments: n
       customerRetention: y
       img: salon.life_.png
+      desc: Best ✅ Beauty Salon Appointment Booking Software & App. ⭐ TRY FOR FREE ⭐ ✓Hair Salons ✓Beauty Salons ✓Nail Salons ✓Scheduling software ✓Calendar. ⏩ Get started today!
   - product:
       name: Square Appointments
       url: https://squareup.com/us/en/appointments
@@ -569,6 +606,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: squareup.com_us_en_appointments.png
+      desc: Square’s appointment software and app shows your calendar, services, and pricing. Send custom reminders and get no-show protection. Now free for sole proprietors.
   - product:
       name: Salon Builder
       url: https://www.salonbuilder.com/
@@ -584,6 +622,7 @@ products:
       onlinePayments: n
       customerRetention: n
       img: www.salonbuilder.com_.png
+      desc: Salon websites, spa websites, appointment booking and marketing for salons and spas. Free self setup, 30-day trial. Custom salon and spa web design and templates.
   - product:
       name: Style Seat
       url: https://www.styleseat.com/join/?source=header_for_business
@@ -598,7 +637,8 @@ products:
       pos: n
       onlinePayments: y
       customerRetention: y
-      img: www.styleseat.com_m_.png
+      img: www.styleseat.com.png
+      desc: Booking, appointment reminders, marketing, and payments from StyleSeat for Business | 30 Days Free, No Card Required | Manage Clients | Reduce No Shows and Late Cancellations | Accept Credit Cards | Online Booking | Promotions
   - product:
       name: STX
       url: https://www.stxsoftware.com/
@@ -614,6 +654,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.stxsoftware.com_.png
+      desc: STX Software provides premiere salon, spa, and fitness management, marketing and payment processing software for desktop computers, mobile phones and tablets.
   - product:
       name: Booxi
       url: https://www.booxi.com/
@@ -629,6 +670,7 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.booxi.com_.png
+      desc: Connecting small business and customers with online booking and appointment reservation.
   - product:
       name: MasterPeace live
       url: https://www.masterpeacelive.com/
@@ -644,3 +686,4 @@ products:
       onlinePayments: y
       customerRetention: y
       img: www.masterpeacelive.com_.png
+      desc: The Complete Salon Management Solution

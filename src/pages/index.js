@@ -13,7 +13,7 @@ export const query = graphql`
     images: allFile(
       filter: {
         extension: { regex: "/(jpeg|jpg|gif|png)/" }
-        sourceInstanceName: { eq: "products6" }
+        sourceInstanceName: { eq: "products8" }
       }
     ) {
       edges {

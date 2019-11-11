@@ -29,7 +29,7 @@ const Product = ({ pageContext }) => {
           images: allFile(
             filter: {
               extension: { regex: "/(jpeg|jpg|gif|png)/" }
-              sourceInstanceName: { eq: "products6" }
+              sourceInstanceName: { eq: "products8" }
             }
           ) {
             edges {
@@ -91,55 +91,13 @@ const Product = ({ pageContext }) => {
                           alt="Application Screenshot"
                         />
                       </div>
-                      <div className="product-details-img" data-hash="two">
-                        <img src="img/product-details/5.jpg" alt="" />
-                      </div>
-                      <div className="product-details-img" data-hash="three">
-                        <img src="img/product-details/6.jpg" alt="" />
-                      </div>
-                      <div className="product-details-img" data-hash="four">
-                        <img src="img/product-details/1.jpg" alt="" />
-                      </div>
                     </div>
-                  </div>
-                  <div className="product-details-menu">
-                    <ul>
-                      <li className="active">
-                        <a href="#description" data-toggle="tab">
-                          Description
-                        </a>
-                      </li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
                   </div>
                   <div className="tab-content">
                     <div className="tab-pane active" id="description">
                       <div className="description-wrap">
-                        <h3>Why You Need Chomok?</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat. Duis aute irure dolor in
-                          henderit in voluptater. Excepteur sint occaecat
-                          cupidatat non proident, sunt in culpa qui officia
-                          deserunt mollit anim id est laborum. Lorem ipsum dolor
-                          sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Ut
-                          enim ad minim veniam, quis nostrud exercitation
-                          ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat.{" "}
-                        </p>
-                        <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur.
-                          Excepteur sint occaecat cupidatat non proident, sunt
-                          in culpa qui officia deserunt mollit anim id est
-                          laborum.
-                        </p>
+                        <h3>{product.name}</h3>
+                        <p>{product.desc}</p>
                         <h3>Features</h3>
                         <ul>
                           {product.mobileApp && <li>iOS/Android app</li>}
@@ -177,7 +135,15 @@ const Product = ({ pageContext }) => {
                             </h3>
                             <ul>
                               <li>
-                                <button>View Website</button>
+                                <a
+                                  href={product.url}
+                                  className="button"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  Visit Website&nbsp;
+                                  <i class="fas fa-external-link-alt"></i>
+                                </a>
                               </li>
                             </ul>
                           </div>

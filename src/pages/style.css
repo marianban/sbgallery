@@ -523,6 +523,16 @@ a#scrollUp:hover {
 /*---------------- header-bottom start ---------------------*/
 .logo {
   padding: 12px 0;
+  font-size: 35px;
+  font-weight: bold;
+}
+.logo a,
+.logo a:hover {
+  color: #4e002d;
+  text-decoration: none;
+}
+.logo a span {
+  color: #ff0061;
 }
 .mainmenu ul li {
   display: inline-block;
@@ -2574,7 +2584,11 @@ a#scrollUp:hover {
 .license-info ul {
   margin-top: 20px;
 }
-.license-info ul li button {
+.license-info ul li button,
+.license-info ul li .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 50px;
   color: #fff;
@@ -2584,7 +2598,8 @@ a#scrollUp:hover {
   border-radius: 5px;
   margin-bottom: 10px;
 }
-.license-info ul li button:hover {
+.license-info ul li button:hover,
+.license-info ul li .button:hover {
   background: #4e002d;
 }
 .license-info ul li:nth-child(2) button {
