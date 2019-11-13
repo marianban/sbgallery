@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Helmet from "react-helmet"
@@ -22,6 +22,9 @@ const findImage = (images, imgName) => {
 
 const Product = ({ pageContext }) => {
   const { product } = pageContext
+  const [tab, setTab] = useState("description")
+  console.log(product)
+
   return (
     <StaticQuery
       query={graphql`
@@ -35,7 +38,7 @@ const Product = ({ pageContext }) => {
             edges {
               node {
                 childImageSharp {
-                  fluid(maxWidth: 850) {
+                  fluid(maxWidth: 800, pngCompressionSpeed: 10, quality: 25) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -56,6 +59,12 @@ const Product = ({ pageContext }) => {
             <script
               src="https://kit.fontawesome.com/6d995c7810.js"
               crossorigin="anonymous"
+            ></script>
+            <script
+              async
+              defer
+              crossorigin="anonymous"
+              src="https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v5.0&appId=1201104880085665&autoLogAppEvents=1"
             ></script>
           </Helmet>
           <div className="breadcumb-area ptb-70 bg-5">
@@ -93,33 +102,99 @@ const Product = ({ pageContext }) => {
                       </div>
                     </div>
                   </div>
-                  <div className="tab-content">
-                    <div className="tab-pane active" id="description">
-                      <div className="description-wrap">
-                        <h3>{product.name}</h3>
-                        <p>{product.desc}</p>
-                        <h3>Features</h3>
-                        <ul>
-                          {product.mobileApp && <li>iOS/Android app</li>}
-                          {product.integration.website && (
-                            <li>Website integration</li>
-                          )}
-                          {product.integration.facebook && (
-                            <li>Facebook integration</li>
-                          )}
-                          {product.free && <li>Free package available</li>}
-                          {product.feedback && <li>Client feedback/reviews</li>}
-                          {product.reminders && <li>Reminders</li>}
-                          {product.pos && <li>POS hardware integration</li>}
-                          {product.onlinePayments && <li>Online payments</li>}
-                          {product.customerRetention && (
-                            <li>Marketing tools</li>
-                          )}
-                        </ul>
+
+                  {product.facebook && (
+                    <div className="product-details-menu">
+                      <ul>
+                        <li className={tab === "description" && "active"}>
+                          <a
+                            href="#description"
+                            onClick={e => {
+                              setTab("description")
+                              e.preventDefault()
+                            }}
+                          >
+                            Description
+                          </a>
+                        </li>
+                        <li className={tab === "facebook" && "active"}>
+                          <a
+                            href="#facebook"
+                            onClick={e => {
+                              setTab("facebook")
+                              setTimeout(() => {
+                                // eslint-disable-next-line no-undef
+                                FB.XFBML.parse()
+                              })
+                              e.preventDefault()
+                            }}
+                          >
+                            Facebook
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  )}
+
+                  {tab === "description" && (
+                    <div className="tab-content">
+                      <div className="tab-pane active" id="description">
+                        <div className="description-wrap">
+                          <h3>{product.name}</h3>
+                          <p>{product.desc}</p>
+                          <h3>Features</h3>
+                          <ul>
+                            {product.mobileApp && <li>iOS/Android app</li>}
+                            {product.integration.website && (
+                              <li>Website integration</li>
+                            )}
+                            {product.integration.facebook && (
+                              <li>Facebook integration</li>
+                            )}
+                            {product.free && <li>Free package available</li>}
+                            {product.feedback && (
+                              <li>Client feedback/reviews</li>
+                            )}
+                            {product.reminders && <li>Reminders</li>}
+                            {product.pos && <li>POS hardware integration</li>}
+                            {product.onlinePayments && <li>Online payments</li>}
+                            {product.customerRetention && (
+                              <li>Marketing tools</li>
+                            )}
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  )}
+
+                  {tab === "facebook" && (
+                    <div className="tab-content">
+                      <div className="tab-pane active" id="facebook">
+                        <div className="description-wrap">
+                          <div
+                            class="fb-page"
+                            data-href={product.facebook}
+                            data-tabs="timeline"
+                            data-width=""
+                            data-height=""
+                            data-small-header="true"
+                            data-adapt-container-width="true"
+                            data-hide-cover="true"
+                            data-show-facepile="true"
+                          >
+                            <blockquote
+                              cite={product.facebook}
+                              class="fb-xfbml-parse-ignore"
+                            >
+                              <a href={product.facebook}>{product.name}</a>
+                            </blockquote>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
+
                 {/* <!-- sidebar-area start --> */}
                 <div className="col-md-4 col-lg-3 col-sm-6 col-xs-12">
                   <aside>
@@ -186,6 +261,8 @@ const Product = ({ pageContext }) => {
               </div>
             </div>
           </div>
+
+          <div id="fb-root"></div>
         </Layout>
       )}
     ></StaticQuery>

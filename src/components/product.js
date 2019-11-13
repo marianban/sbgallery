@@ -19,7 +19,7 @@ const findImage = (images, imgName) => {
 }
 
 export const Product = ({ name, img, stars, prices, images }) => {
-  const url = `/app/${slugify(name)}`
+  const url = `/app/${slugify(name)}/`
 
   return (
     <div className="col-md-4 col-lg-3 col-sm-6 col-xs-12">
