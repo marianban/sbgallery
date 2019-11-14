@@ -25,6 +25,8 @@ const Product = ({ pageContext }) => {
   const [tab, setTab] = useState("description")
   console.log(product)
 
+  const hasMenu = product.facebook || product.twitter
+
   return (
     <StaticQuery
       query={graphql`
@@ -66,6 +68,13 @@ const Product = ({ pageContext }) => {
               crossorigin="anonymous"
               src="https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v5.0&appId=1201104880085665&autoLogAppEvents=1"
             ></script>
+            <script
+              async
+              defer
+              crossorigin="anonymous"
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
           </Helmet>
           <div className="breadcumb-area ptb-70 bg-5">
             <div className="container">
@@ -102,8 +111,7 @@ const Product = ({ pageContext }) => {
                       </div>
                     </div>
                   </div>
-
-                  {product.facebook && (
+                  {hasMenu && (
                     <div className="product-details-menu">
                       <ul>
                         <li className={tab === "description" && "active"}>
@@ -117,25 +125,51 @@ const Product = ({ pageContext }) => {
                             Description
                           </a>
                         </li>
-                        <li className={tab === "facebook" && "active"}>
-                          <a
-                            href="#facebook"
-                            onClick={e => {
-                              setTab("facebook")
-                              setTimeout(() => {
-                                // eslint-disable-next-line no-undef
-                                FB.XFBML.parse()
-                              })
-                              e.preventDefault()
-                            }}
-                          >
-                            Facebook
-                          </a>
-                        </li>
+
+                        {product.facebook && (
+                          <li className={tab === "facebook" && "active"}>
+                            <a
+                              href="#facebook"
+                              onClick={e => {
+                                setTab("facebook")
+                                setTimeout(() => {
+                                  // eslint-disable-next-line no-undef
+                                  FB.XFBML.parse()
+                                })
+                                e.preventDefault()
+                              }}
+                            >
+                              <i class="fab fa-facebook-f"></i> Facebook
+                            </a>
+                          </li>
+                        )}
+
+                        {product.twitter && (
+                          <li className={tab === "twitter" && "active"}>
+                            <a
+                              href="#twitter"
+                              onClick={e => {
+                                setTab("twitter")
+                                setTimeout(() => {
+                                  // eslint-disable-next-line no-undef
+                                  twttr.widgets.createTimeline(
+                                    {
+                                      sourceType: "profile",
+                                      screenName: product.twitter,
+                                    },
+                                    document.getElementById("twitter-timeline")
+                                  )
+                                })
+                                e.preventDefault()
+                              }}
+                            >
+                              <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                          </li>
+                        )}
                       </ul>
                     </div>
                   )}
-
                   {tab === "description" && (
                     <div className="tab-content">
                       <div className="tab-pane active" id="description">
@@ -166,7 +200,6 @@ const Product = ({ pageContext }) => {
                       </div>
                     </div>
                   )}
-
                   {tab === "facebook" && (
                     <div className="tab-content">
                       <div className="tab-pane active" id="facebook">
@@ -175,8 +208,8 @@ const Product = ({ pageContext }) => {
                             class="fb-page"
                             data-href={product.facebook}
                             data-tabs="timeline"
-                            data-width=""
-                            data-height=""
+                            data-width="500"
+                            data-height="1000"
                             data-small-header="true"
                             data-adapt-container-width="true"
                             data-hide-cover="true"
@@ -189,6 +222,15 @@ const Product = ({ pageContext }) => {
                               <a href={product.facebook}>{product.name}</a>
                             </blockquote>
                           </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                  {tab === "twitter" && (
+                    <div className="tab-content">
+                      <div className="tab-pane active" id="twitter">
+                        <div className="description-wrap">
+                          <div id="twitter-timeline"></div>
                         </div>
                       </div>
                     </div>
