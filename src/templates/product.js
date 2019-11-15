@@ -23,7 +23,6 @@ const findImage = (images, imgName) => {
 const Product = ({ pageContext }) => {
   const { product } = pageContext
   const [tab, setTab] = useState("description")
-  console.log(product)
 
   const hasMenu = product.facebook || product.twitter
 
@@ -114,7 +113,11 @@ const Product = ({ pageContext }) => {
                   {hasMenu && (
                     <div className="product-details-menu">
                       <ul>
-                        <li className={tab === "description" && "active"}>
+                        <li
+                          className={
+                            tab === "description" ? "active" : undefined
+                          }
+                        >
                           <a
                             href="#description"
                             onClick={e => {
@@ -127,7 +130,11 @@ const Product = ({ pageContext }) => {
                         </li>
 
                         {product.facebook && (
-                          <li className={tab === "facebook" && "active"}>
+                          <li
+                            className={
+                              tab === "facebook" ? "active" : undefined
+                            }
+                          >
                             <a
                               href="#facebook"
                               onClick={e => {
@@ -139,13 +146,15 @@ const Product = ({ pageContext }) => {
                                 e.preventDefault()
                               }}
                             >
-                              <i class="fab fa-facebook-f"></i> Facebook
+                              <i className="fab fa-facebook-f"></i> Facebook
                             </a>
                           </li>
                         )}
 
                         {product.twitter && (
-                          <li className={tab === "twitter" && "active"}>
+                          <li
+                            className={tab === "twitter" ? "active" : undefined}
+                          >
                             <a
                               href="#twitter"
                               onClick={e => {
@@ -163,7 +172,7 @@ const Product = ({ pageContext }) => {
                                 e.preventDefault()
                               }}
                             >
-                              <i class="fab fa-twitter"></i> Twitter
+                              <i className="fab fa-twitter"></i> Twitter
                             </a>
                           </li>
                         )}
@@ -205,7 +214,7 @@ const Product = ({ pageContext }) => {
                       <div className="tab-pane active" id="facebook">
                         <div className="description-wrap">
                           <div
-                            class="fb-page"
+                            className="fb-page"
                             data-href={product.facebook}
                             data-tabs="timeline"
                             data-width="500"
@@ -217,7 +226,7 @@ const Product = ({ pageContext }) => {
                           >
                             <blockquote
                               cite={product.facebook}
-                              class="fb-xfbml-parse-ignore"
+                              className="fb-xfbml-parse-ignore"
                             >
                               <a href={product.facebook}>{product.name}</a>
                             </blockquote>
@@ -259,7 +268,7 @@ const Product = ({ pageContext }) => {
                                   rel="noopener noreferrer"
                                 >
                                   Visit Website&nbsp;
-                                  <i class="fas fa-external-link-alt"></i>
+                                  <i className="fas fa-external-link-alt"></i>
                                 </a>
                               </li>
                             </ul>

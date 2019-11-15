@@ -17,7 +17,7 @@ export const Newsletter = () => (
               method="post"
               id="mc-embedded-subscribe-form"
               name="mc-embedded-subscribe-form"
-              class="validate"
+              className="validate"
               target="_blank"
               novalidate
             >
