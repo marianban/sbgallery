@@ -3,7 +3,7 @@ module.exports = {
     title: `Salon And Barber Software Gallery`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
-    siteUrl: "https://www.salon-barber-software.com",
+    siteUrl: "https://www.salon-software-booth-renters",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
