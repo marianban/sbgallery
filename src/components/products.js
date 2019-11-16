@@ -2,6 +2,8 @@ import React from "react"
 import ProductsData from "../content/products.yaml"
 import { Product } from "./product"
 
+const products = ProductsData.products
+
 export const Products = ({ images }) => (
   <div className="our-project-area ptb-70 bg-3">
     <div className="container">
@@ -52,7 +54,7 @@ export const Products = ({ images }) => (
           <div className="tab-content">
             <div className="tab-pane active" id="popular">
               <div className="row">
-                {ProductsData.products.map(({ product }) => (
+                {products.map(({ product }) => (
                   <Product {...product} images={images} />
                 ))}
               </div>

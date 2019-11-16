@@ -3,6 +3,8 @@ import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Helmet from "react-helmet"
 import Layout from "../components/layout"
+import { Product } from "../components/product"
+import ProductsData from "../content/products.yaml"
 
 const findImage = (images, imgName) => {
   let img = images.edges.find(
@@ -20,7 +22,7 @@ const findImage = (images, imgName) => {
   return img.node.childImageSharp.fluid
 }
 
-const Product = ({ pageContext }) => {
+const ProductDetail = ({ pageContext }) => {
   const { product } = pageContext
   const [tab, setTab] = useState("description")
 
@@ -46,9 +48,25 @@ const Product = ({ pageContext }) => {
               }
             }
           }
+          images2: allFile(
+            filter: {
+              extension: { regex: "/(jpeg|jpg|gif|png)/" }
+              sourceInstanceName: { eq: "products8" }
+            }
+          ) {
+            edges {
+              node {
+                childImageSharp {
+                  fluid(maxWidth: 350, pngCompressionSpeed: 10, quality: 25) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
+          }
         }
       `}
-      render={({ images }) => (
+      render={({ images, images2 }) => (
         <Layout>
           <Helmet>
             <link
@@ -313,6 +331,29 @@ const Product = ({ pageContext }) => {
             </div>
           </div>
 
+          <div className="related-product-area ptb-70 bg-3">
+            <div className="container">
+              <div className="row">
+                <div className="col-xs-12">
+                  <div className="section-title section-title2">
+                    <h2>Similar Products</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="featured-product-active next-prev-style">
+                  {ProductsData.products
+                    .filter(item => item.product.name !== product.name)
+                    .sort(() => (Math.random() < 0.5 ? -1 : 1))
+                    .slice(0, 4)
+                    .map((item, i) => (
+                      <Product key={i} {...item.product} images={images2} />
+                    ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div id="fb-root"></div>
         </Layout>
       )}
@@ -320,4 +361,4 @@ const Product = ({ pageContext }) => {
   )
 }
 
-export default Product
+export default ProductDetail
