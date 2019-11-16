@@ -48,6 +48,11 @@ body {
   line-height: 26px;
   background: #fff;
 }
+
+header {
+  height: 60px;
+}
+
 .floatleft {
   float: left;
 }
@@ -522,10 +527,13 @@ a#scrollUp:hover {
 
 /*---------------- header-bottom start ---------------------*/
 .logo {
-  padding: 12px 0;
-  font-size: 35px;
+  padding: 15px 0;
+  font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
+  text-transform: none;
+  display: flex;
+  align-items: center;
 }
 .logo a,
 .logo a:hover {
@@ -545,7 +553,7 @@ a#scrollUp:hover {
   font-weight: 800;
   text-transform: uppercase;
   color: #4e002d;
-  padding: 25px 20px;
+  padding: 20px 20px;
 }
 .mainmenu ul li:last-child a {
   padding-right: 0px;

@@ -455,24 +455,6 @@ products:
       twitter: MioSalon
       desc: Online Spa and Salon Software makes your daily business operation easy & Maximize profits. Appointment Scheduling, Billing, Online booking, Client Management.
   - product:
-      name: Booker
-      url: https://www.mindbodyonline.com/salon-software
-      free: n
-      prices: $109 - $299
-      mobileApp: y
-      integration:
-        website: y
-        facebook: y
-      feedback: y
-      reminders: y
-      pos: y
-      onlinePayments: y
-      customerRetention: y
-      img: www.mindbodyonline.com_salon-software.png
-      facebook: "https://www.facebook.com/mindbodyinc"
-      twitter: askmindbody
-      desc: Our salon software helps salon owners with business management, scheduling, point of sale, reporting, and marketing in an all-in-one software technology platform. Get a demo and learn how salon software can grow your revenue faster and streamline your salon business.
-  - product:
       name: Supersalon
       url: https://supersalon.com/
       free: n

@@ -47,8 +47,8 @@ export const Product = ({ name, img, stars, prices, images }) => {
           <div className="product-meta">
             <ul>
               <li>
-                {Array.from({ length: stars }, () => (
-                  <i className="fa fa-star"></i>
+                {Array.from({ length: stars }, (v, i) => (
+                  <i className="fa fa-star" key={i}></i>
                 ))}
               </li>
               <li>

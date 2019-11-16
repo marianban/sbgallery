@@ -54,8 +54,8 @@ export const Products = ({ images }) => (
           <div className="tab-content">
             <div className="tab-pane active" id="popular">
               <div className="row">
-                {products.map(({ product }) => (
-                  <Product {...product} images={images} />
+                {products.map(({ product }, i) => (
+                  <Product key={product.name} {...product} images={images} />
                 ))}
               </div>
             </div>

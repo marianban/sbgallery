@@ -19,7 +19,7 @@ export const Newsletter = () => (
               name="mc-embedded-subscribe-form"
               className="validate"
               target="_blank"
-              novalidate
+              noValidate
             >
               <input
                 type="email"
@@ -33,8 +33,7 @@ export const Newsletter = () => (
                 <input
                   type="text"
                   name="b_70505eb8d94b128a46d63c8b1_1576e5ff74"
-                  tabindex="-1"
-                  value=""
+                  tabIndex="-1"
                 />
               </div>
               <button className="btn-style" type="submit">

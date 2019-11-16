@@ -8,7 +8,8 @@ const Header = () => (
           <div className="col-md-3 col-xs-8">
             <div className="logo">
               <a href="/">
-                S<span>&amp;</span>B GALLERY
+                <i className="fas fa-crown" style={{ color: "#ff0061" }}></i>{" "}
+                Software Gallery
               </a>
             </div>
           </div>

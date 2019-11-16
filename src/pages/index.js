@@ -34,7 +34,7 @@ const IndexPage = ({ data: { images } }) => (
     <SEO
       title="For small businesses, individuals and booth rentals"
       lang="en"
-      description="Showcase of the best Salon and Barber software available for booth renters. Choose from more than hundred online service providers."
+      description="⭐️ Make your customers fall in love with your business ❤️ Choose from the best Salon 💇🏽‍♀️ and Barber 💈 software available for booth renters. Operate effectively and retain your clients 😊"
     />
     <Helmet>
       <link

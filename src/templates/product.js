@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import Helmet from "react-helmet"
 import Layout from "../components/layout"
 import { Product } from "../components/product"
+import SEO from "../components/seo"
 import ProductsData from "../content/products.yaml"
 
 const findImage = (images, imgName) => {
@@ -68,6 +69,11 @@ const ProductDetail = ({ pageContext }) => {
       `}
       render={({ images, images2 }) => (
         <Layout>
+          <SEO
+            title={product.name}
+            lang="en"
+            description="⭐️ Make your customers fall in love with your business ❤️ Choose from the best Salon 💇🏽‍♀️ and Barber 💈 software available for booth renters. Operate effectively and retain your clients 😊"
+          />
           <Helmet>
             <link
               rel="stylesheet"
@@ -347,7 +353,11 @@ const ProductDetail = ({ pageContext }) => {
                     .sort(() => (Math.random() < 0.5 ? -1 : 1))
                     .slice(0, 4)
                     .map((item, i) => (
-                      <Product key={i} {...item.product} images={images2} />
+                      <Product
+                        key={item.product.name}
+                        {...item.product}
+                        images={images2}
+                      />
                     ))}
                 </div>
               </div>
