@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Salon And Barber Software Gallery`,
+    title: "Salon And Barber Software Gallery",
+    description:
+      "⭐️ Make your customers fall in love with your business ❤️ Choose from the best Salon 💇🏽‍♀️ and Barber 💈 software available for booth renters. Operate effectively and retain your clients 😊",
     author: `@gatsbyjs`,
     siteUrl: "https://www.salon-software-booth-renters.com",
   },
