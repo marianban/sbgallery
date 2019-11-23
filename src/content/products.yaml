@@ -735,3 +735,83 @@ products:
       customerRetention: y
       img: www.masterpeacelive.com_.png
       desc: The Complete Salon Management Solution
+  - product:
+      name: Salon Genius
+      url: https://www.salongenius.com/
+      free: n
+      prices: £49+
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: y
+      onlinePayments: n
+      customerRetention: y
+      img: www.salongenius.com_.png
+      desc: SALONGENIUS salon software is everything you need to run a successful hair salon, beauty salon, barbershop, spa or clinic. Features include bookings system, salon marketing, business reports and more.
+  - product:
+      name: Yocale
+      url: https://business.yocale.com/
+      free: y
+      prices: $49 - $80
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: n
+      onlinePayments: y
+      customerRetention: y
+      img: business.yocale.com_.png
+      desc: View all of our amazing and affordable pricing plans to get you started right away managing your schedules and appointments online.
+  - product:
+      name: Full Slate
+      url: http://www.fullslate.com/
+      free: n
+      prices: $30-$80
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: n
+      onlinePayments: y
+      customerRetention: y
+      img: www.fullslate.com_.png
+      desc: Appointment scheduling software for small businesses. Accept appointments with an online scheduler on your website and Facebook. FREE trial!
+  - product:
+      name: Growth Zilla
+      url: https://growthzilla.com/
+      free: n
+      prices: $99 - $139
+      mobileApp: y
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: y
+      onlinePayments: y
+      customerRetention: y
+      img: growthzilla.com_.png
+      desc: Best salon software with online booking! Let clients book appointment from your website or social media. Get the solution loved by thousands of salon professionals around the world.
+  - product:
+      name: Milano Software
+      url: http://milanosoftware.com/
+      free: n
+      prices: $1995
+      mobileApp: n
+      integration:
+        website: y
+        facebook: y
+      feedback: y
+      reminders: y
+      pos: y
+      onlinePayments: y
+      customerRetention: y
+      img: milanosoftware.com_.png
+      desc: MilanoApp is a mobile solution for managing your business running Milano Software. Manage all your appointments and clients and even process payments wherever you are

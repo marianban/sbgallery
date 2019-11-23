@@ -30,6 +30,20 @@ export const Footer = () => (
                   salon.barber.app.gallery@gmail.com
                 </li>
               </ul>
+              <div className="socil-icon">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/Salon-Software-For-Booth-Renters-100655184748742">
+                      <i className="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.pinterest.com/salonbarberappgallery">
+                      <i className="fab fa-pinterest"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

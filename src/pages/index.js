@@ -47,6 +47,7 @@ const IndexPage = ({ data: { images } }) => (
         src="https://kit.fontawesome.com/6d995c7810.js"
         crossorigin="anonymous"
       ></script>
+      <meta name="p:domain_verify" content="b9549c0a38e4b9a28cdcc25d66ebf07f" />
     </Helmet>
     <Hero />
     <SearchArea />
