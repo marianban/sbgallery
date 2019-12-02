@@ -69,11 +69,7 @@ const ProductDetail = ({ pageContext }) => {
       `}
       render={({ images, images2 }) => (
         <Layout>
-          <SEO
-            title={product.name}
-            lang="en"
-            description="⭐️ Make your customers fall in love with your business ❤️ Choose from the best Salon 💇🏽‍♀️ and Barber 💈 software available for booth renters. Operate effectively and retain your clients 😊"
-          />
+          <SEO title={product.name} lang="en" description={product.desc} />
           <Helmet>
             <link
               rel="stylesheet"

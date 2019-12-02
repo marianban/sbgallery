@@ -25,13 +25,12 @@ export const Product = ({ name, img, stars, prices, images }) => {
     <div className="col-md-4 col-lg-3 col-sm-6 col-xs-12">
       <div className="product-item mb-20">
         <div className="product-img">
-          <Img
-            fluid={findImage(images, img)}
-            style={{ minHeight: "150px" }}
-            imgStyle={{ objectPosition: "0% 0%" }}
-          />
-          <a href={url} className="link">
-            <i className="fa fa-link"></i>
+          <a href={url}>
+            <Img
+              fluid={findImage(images, img)}
+              style={{ minHeight: "150px" }}
+              imgStyle={{ objectPosition: "0% 0%" }}
+            />
           </a>
           <a href="/" className="wishlist">
             <i className="fa fa-heart"></i>

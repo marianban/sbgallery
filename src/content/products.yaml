@@ -749,6 +749,8 @@ products:
       pos: y
       onlinePayments: n
       customerRetention: y
+      facebook: https://www.facebook.com/salongeniusUK/
+      twitter: salongenius
       img: www.salongenius.com_.png
       desc: SALONGENIUS salon software is everything you need to run a successful hair salon, beauty salon, barbershop, spa or clinic. Features include bookings system, salon marketing, business reports and more.
   - product:
@@ -766,6 +768,8 @@ products:
       onlinePayments: y
       customerRetention: y
       img: business.yocale.com_.png
+      facebook: https://www.facebook.com/yocaleNetwork
+      twitter: yocalenetwork
       desc: View all of our amazing and affordable pricing plans to get you started right away managing your schedules and appointments online.
   - product:
       name: Full Slate
@@ -798,6 +802,8 @@ products:
       onlinePayments: y
       customerRetention: y
       img: growthzilla.com_.png
+      facebook: https://www.facebook.com/growthzilla
+      twitter: growzilla
       desc: Best salon software with online booking! Let clients book appointment from your website or social media. Get the solution loved by thousands of salon professionals around the world.
   - product:
       name: Milano Software
@@ -814,4 +820,6 @@ products:
       onlinePayments: y
       customerRetention: y
       img: milanosoftware.com_.png
+      facebook: https://www.facebook.com/MilanoSoftware/
+      twitter: milanosoftware
       desc: MilanoApp is a mobile solution for managing your business running Milano Software. Manage all your appointments and clients and even process payments wherever you are

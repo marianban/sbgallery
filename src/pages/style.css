@@ -941,6 +941,7 @@ a#scrollUp:hover {
   opacity: 0;
   z-index: 99;
 }
+/*
 .product-img:hover a.link {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
@@ -978,6 +979,7 @@ a#scrollUp:hover {
   transform: scale(1);
   opacity: 0.85;
 }
+*/
 .product-img a.wishlist {
   position: absolute;
   right: -1px;
